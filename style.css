@@ -20,6 +20,7 @@ a {
     padding: 0.5em 1em;
     font-family: "Barlow Semi Condensed", sans-serif;
     background: black;
+    height: 18%;
 }
 
 .nav-item {
@@ -59,6 +60,10 @@ h2{
     padding: 0.5em;
     background: transparent;
     z-index: 10;
+}
+
+.active .nav-toggle{
+    z-index: 100;
 }
 
 .hamburger,
